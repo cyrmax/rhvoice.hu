@@ -1,0 +1,4 @@
+baseURL = "https://rhvoice.hu"
+languageCode = "hu-hu"
+title = "Magyar RHVoice beszédszintetizátor"
+theme = "cupper"
