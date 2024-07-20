@@ -1,0 +1,28 @@
+skip_to_content:
+  other: перейти к основному содержимому
+nav_main_navigation:
+  other: Основная навигация
+nav_button_menu:
+  other: Меню
+discuss_show_comments_button:
+  other: Показать комментарии
+discuss_comments_disabled:
+  other: Комментарии Disqus отключены
+discuss_js_disabled:
+  other: Разрешите JavaScript для просмотра комментариев Disqus
+dark_theme:
+  other: "тёмная тема:"
+table_of_contents:
+  other: Содержание
+publish_date:
+  other: "Дата публикации:"
+last_updated:
+  other: "Обновлено:"
+tags:
+  other: "Теги:"
+aria_label_tags:
+  other: теги
+search_placeholder:
+  other: Искать по заголовкам...
+search_aria_label:
+  other: Искать по заголовкам

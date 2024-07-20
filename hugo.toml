@@ -1,4 +1,40 @@
 baseURL = "https://rhvoice.hu"
-languageCode = "hu-hu"
-title = "Magyar RHVoice beszédszintetizátor"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+sectionPagesMenu = "main"
+title = "Magyar RHVoice"
 theme = "cupper"
+
+[params]
+dateFormat = "2024-07-20"
+copyright = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimir222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
+footer = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimir222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
+subtitle = "Magyar hangok és instrukciók az RHVoice beszédszintetizátorhoz"
+
+[params.contact]
+email = "info@rhvoice.hu"
+
+[params.urls]
+nvdaDirectLink = "https://rhvoice.org/download/RHVoice-1.14.1.nvda-addon"
+androidApp = "https://storage.cyrmax.ru/rhvoice/vce/rhvoice-lang-testing.apk"
+
+[params.urls.Anna]
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.0.1001.20-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.0.1001.11.nvda-addon"
+
+[params.urls.Katalin]
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.0.1001.20-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.0.1001.11.nvda-addon"
+
+[languages]
+[languages.hu]
+title = "Magyar RHVoice"
+languageName = "Magyar"
+weight = 1
+contentDir = "content/hu"
+
+[languages.en]
+title = "Hungarian RHVoice"
+languageName = "English"
+weight = 2
+contentDir = "content/en"
