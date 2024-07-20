@@ -19,10 +19,14 @@ Warning! If your system is not set to Hungarian language then Hungarian voices w
 
 ## Anna
 
+A soft-sounding  female voice, trained from the same dataset which was used for Piper TTS Anna Hungarian voice.
+
 * [Download NVDA add-on]({{<param "urls.Anna.nvda">}});
 * [Download SAPI version]({{<param "urls.Anna.sapi">}}).
 
 ## Katalin
+
+A female voice with sharper pronunciation, trained on [Egri Csillagok open source dataset from Kaggle](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset).
 
 * [Download NVDA add-on]({{<param "urls.Katalin.sapi">}});
 * [Download SAPI version]({{<param "urls.Katalin.sapi">}}).
