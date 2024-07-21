@@ -8,15 +8,15 @@ weight = 3
 
 # Available Hungarian voices
 
-For each voice you can find a link to the NVDA add-on and a link to the SAPI version installer.
+For each voice you can find a link to an NVDA add-on and a link to a SAPI version installer.
 
 ## Android application (Beta version)
 
-The android application already contains all available voices and can be downloaded as an APK file with the link below.
+Android application already contains all available voices and can be downloaded as an APK file with a link below.
 
 [Download RHVoice Android application]({{<param "urls.androidApp">}}).
 
-Warning! If your system is not set to Hungarian then the Hungarian voices aren't going to speak and you can be stuck with silent device without the ability to rescue the situation without a sighted person.
+Warning! If your system is not set to Hungarian language then Hungarian voices will not speak and you can be stuck with silent device without an ability to rescue the situation without a sighted person.
 
 ## Anna (Beta version)
 

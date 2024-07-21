@@ -8,7 +8,7 @@ weight = 1
 
 # Hungarian RHVoice
 
-## What is RHVoice?
+## What is RHVoice
 
 RHVoice is a free and open-source multilingual speech synthesizer.
 
@@ -26,7 +26,7 @@ After several months of hard work, trials and fails, our team proudly presents a
 
 * Zvonimir Stanecic - Works on the source code and trains the voices;
 * Kirill Belousov - Works on the source code, improves sound quality and manages this website;
-* Till Nikolett - Is the main beta-tester, Hungarian native speaker and the ultimate translator for any text content.
+* Till Nikolett - Acts as the main beta-tester, Hungarian native speaker and the ultimate translator for any text content.
 
 ## Where can RHVoice be used?
 

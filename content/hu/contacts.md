@@ -8,7 +8,7 @@ weight = 5
 
 # Contacts
 
-If you want to contact the entire team you can use the following email address: [info@rhvoice.hu](mailto:info@rhvoice.hu).
+If you want to contact the entire team you can use this email address: [info@rhvoice.hu](mailto:info@rhvoice.hu).
 
 ## Our team
 
@@ -38,5 +38,3 @@ The ultimate translator and Hungarian language native speaker.
 She translates any text content including this website, acts as the main beta-tester and helps the team with difficult nuances of Hungarian language.
 
 * Email: [tillnikolett@gmail.com](mailto:tillnikolett@gmail.com)
-* Telegram: [@Destranis](https://t.me/destranis);
-* Facebook: [Till Nikolett](https://www.facebook.com/till.nikolett/);
