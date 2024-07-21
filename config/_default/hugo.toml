@@ -1,7 +1,7 @@
 baseURL = "https://rhvoice.hu"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-sectionPagesMenu = "main"
+#sectionPagesMenu = "mainmenu"
 title = "Magyar RHVoice"
 theme = "cupper"
 

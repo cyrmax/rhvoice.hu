@@ -3,6 +3,7 @@ title = 'Contacts'
 date = 2024-07-20T20:25:19+03:00
 menu = "nav"
 draft = false
+weight = 5
 +++
 
 # Contacts
