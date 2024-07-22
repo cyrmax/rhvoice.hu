@@ -35,7 +35,7 @@ He writes the source code, improves sound quality and manages this website.
 
 The ultimate translator and Hungarian language native speaker.
 
-She translates any text content including this website, acts as the main beta-tester and helps the team with difficult nuances of Hungarian language.
+She translates any text content including this website, is the main beta-tester and helps the team with difficult nuances of Hungarian language.
 
 * Email: [tillnikolett@gmail.com](mailto:tillnikolett@gmail.com)
 * Telegram: [@Destranis](https://t.me/destranis);
