@@ -1,33 +1,31 @@
 +++
-title = 'Voices'
-date = 2024-07-20T19:56:01+03:00
+title = 'Hangok'
+date = 2024-07-22T16:41:01+02:00
 menu = "nav"
 draft = false
 weight = 3
 +++
 
-# Available Hungarian voices
+# Elérhető magyar hangok
 
-For each voice you can find a link to an NVDA add-on and a link to a SAPI version installer.
+Minden hanghoz megtalálod az NVDA bővítmény linkjét és a SAPI verzió telepítőjét is.
 
-## Android application (Beta version)
+## Android alkalmazás (Béta verzió)
 
-Android application already contains all available voices and can be downloaded as an APK file with a link below.
+Az android alkalmazás már tartalmazza az összes elérhető hangot, és az alábbi linken keresztül APK fájlként letölthető.
 
-[Download RHVoice Android application]({{<param "urls.androidApp">}}).
+[Az Android alkalmazás letöltése]({{<param "urls.androidApp">}}).
+Figyelem! Ha a rendszered nincs magyar nyelvre állítva, akkor a magyar hangok nem fognak megszólalni, és előfordulhat, hogy egy néma eszközzel maradsz, amit csak látó személy segítségével tudsz megoldani.
 
-Warning! If your system is not set to Hungarian language then Hungarian voices will not speak and you can be stuck with silent device without an ability to rescue the situation without a sighted person.
+## Anna (Béta verzió)
 
-## Anna (Beta version)
+Egy lágy hangzású női hang, amely ugyanaz az adatbázis segítségével lett betanítva, mint a Piper TTS Anna magyar hangja.
 
-A soft-sounding  female voice, trained from the same dataset which was used for Piper TTS Anna Hungarian voice.
+* [NVDA bővítmény letöltése]({{<param "urls.Anna.nvda">}});
+* [SAPI verzió letöltése]({{<param "urls.Anna.sapi">}}).
 
-* [Download NVDA add-on]({{<param "urls.Anna.nvda">}});
-* [Download SAPI version]({{<param "urls.Anna.sapi">}}).
+## Katalin (Béta verzió)
 
-## Katalin (Beta version)
-
-A female voice with sharper pronunciation, trained on [Egri Csillagok open source dataset from Kaggle](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset).
-
-* [Download NVDA add-on]({{<param "urls.Katalin.sapi">}});
-* [Download SAPI version]({{<param "urls.Katalin.sapi">}}).
+Egy női hang tisztább kiejtéssel, amelyet az [Egri Csillagok nyílt forráskódú adatbázisból a Kaggle-ről](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset) képeztünk ki.
+* [NVDA bővítmény letöltése]({{<param "urls.Katalin.sapi">}});
+* [SAPI verzió letöltése]({{<param "urls.Katalin.sapi">}}).

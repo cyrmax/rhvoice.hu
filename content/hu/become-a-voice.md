@@ -1,40 +1,39 @@
 +++
-title = 'Become a voice'
-date = 2024-07-21T00:30:29+03:00
+title = 'Legyél te is magyar hang!'
+date = 2024-07-22T15:35:29+02:00
 menu = "nav"
 draft = false
 weight = 4
 +++
 
-# Become a voice
+# Legyél te is magyar hang!
 
-We always look for new speakers who want to become a new voice for Hungarian RHVoice.
+Folyamatosan új felolvasókat keresünk, akik önkéntes módon hanggá szeretnének válni a magyar RHVoice számára.
 
-If you feel yourself comfortable with reading over 3000 sentences with perfect pronunciation and you have an access to high-quality recording hardware, you can become a new voice for RHVoice.
+Ha szívesen olvasnál fel több mint 3000 mondatot tökéletes kiejtéssel, és hozzáférsz kiváló minőségű felvételi eszközökhöz, te is jelentkezhetsz.
+Amíg nem stabilizáljuk és normalizáljuk a beszélők által olvasandó szövegeket, nem tudjuk itt közzétenni őket.
+ Amennyiben jelentkeznél, lépj kapcsolatba csapatunkkal az [elérhetőségek]({{<relref "contacts">}}) oldalon megadott módokon.
 
-Until we stabilize and normalize texts which speakers need to read, we cannot publish them here.
-So, at the time you can contact our team directly using one of methods described on the [contacts page]({{<relref "contacts">}}).
+Szívesen fogadjuk, ha megosztasz velünk néhány nyílt forráskódú, nem kereskedelmi célú adatbázist, amelyet az interneten találtál.
 
-Also we will be glad if you share with us one of open source noncommercial datasets found on the internet.
+## Szabályok, amelyeket felvételkor tarts szem előtt
 
-## Rules to keep in mind when recording
+* A felvételeknek teljesen egyezniük kell a szöveggel. Az adott txt fájlban egy sor szöveg pontosan egy wav fájlnak felel meg;
+* A felvételek nem tartalmazhatnak visszhangot vagy erős szoba-hanghatást;
+* A felvételeknek háttérzajoktól mentesnek kell lenniük;
+* A beszélőnek kerülni kell a hosszú szüneteket (hosszabbakat, mint 0,7 másodperc);
+* A beszélő kiejtésének tisztának és artikuláltnak kell lennie;
+* A beszédnek a lehető legmonotonabbnak kell lennie, erős felkiáltó vagy kérdő intonációk nélkül;
+* A beszélőnek kerülni kell a hirtelen hanglejtéseket (amit az amerikai angolban "vocal fry"-nak neveznek);
+* Párbeszédek olvasása során sem szabad a beszélőnek változtatnia a hangján vagy játszania vele;
+* A felvételeknek menteseknek kell lenniük minden hanghatástól;
+* A felvételek nem lehetnek előfeldolgozva semmilyen hangspektrum-helyreállító és/vagy újraszintetizáló szoftverrel.
 
-* Recordings should be fully aligned with the text. One line of text in given txt file should correspond to exactly one wav file;
-* Recordings should **not** contain echo or strong room reflections;
-* Recordings should be clear of background noises;
-* The speaker should avoid long pauses (longer than 0.7 second);
-* The speaker's pronunciation should be clear and articulated;
-* The speaker's intonation should be as monotonic as possible, without strong exclamation or question intonations;
-* The speaker should avoid sharp drop in their voice (what is called "vocal fry" in the American English);
-* Even when reading dialogs speaker should not try to play with their voice or change it;
-* Recordings should be clear of any sound effects;
-* Recordings should not be preprocessed with any software that uses sound spectrum restoration and/or resynthitizing.
+## Felvételek helyes rendezése
 
-## How to organize recordings
-
-* Each audio file should correspond to exactly one line in text file;
-* Audio files should be in wav format;
-* Audio files should be in maximum possible quality;
-* Minimum quality threshold for audio files is 44kHz sample rate with 16 bits per sample;
-* Recordings should be named with ascending 4-digit numerals starting from 0000 or 0001;
-* Recordings should be put in a single folder without any extra folder structure.
+* Minden hangfájl pontosan egy sornyi szövegnek felel meg a szövegfájlban;
+* A hangfájloknak wav formátumban kell lenniük;
+* A hangfájloknak a lehető legmagasabb minőségűeknek kell lenniük;
+* A hangfájlok minimális minőségi küszöbe 44kHz mintavételi frekvencia 16 bites mintavétellel;
+* A felvételeket növekvő négyjegyű számokkal kell elnevezni, kezdve a 0000 vagy 0001 számmal;
+* A felvételeket egyetlen mappába kell helyezni, minden további könyvtárak nélkül.

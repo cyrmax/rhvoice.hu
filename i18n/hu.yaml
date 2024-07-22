@@ -1,28 +1,28 @@
 skip_to_content:
-  other: перейти к основному содержимому
+  other: Ugrás a tartalomhoz
 nav_main_navigation:
-  other: Основная навигация
+  other: Főnavigáció
 nav_button_menu:
-  other: Меню
+  other: Menü
 discuss_show_comments_button:
-  other: Показать комментарии
+  other: Megjegyzések mutatása
 discuss_comments_disabled:
-  other: Комментарии Disqus отключены
+  other: Megjegyzések letiltva
 discuss_js_disabled:
-  other: Разрешите JavaScript для просмотра комментариев Disqus
+  other: Engedélyezze a Javascript bővítményeket a megjegyzések mutatásához
 dark_theme:
-  other: "тёмная тема:"
+  other: "sötét téma:"
 table_of_contents:
-  other: Содержание
+  other: Tartalom
 publish_date:
-  other: "Дата публикации:"
+  other: "Kiadás dátuma:"
 last_updated:
-  other: "Обновлено:"
+  other: "Legutóbb frissítve:"
 tags:
-  other: "Теги:"
+  other: "Tagek:"
 aria_label_tags:
-  other: теги
+  other: Tagek
 search_placeholder:
-  other: Искать по заголовкам...
+  other: Keresés címsorok alapján...
 search_aria_label:
-  other: Искать по заголовкам
+  other: Keresés címsorok alapján

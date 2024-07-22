@@ -1,37 +1,34 @@
 +++
-title = 'Home'
-date = 2024-07-20T19:02:00+03:00
+title = 'Főoldal'
+date = 2024-07-22T15:10:00+02:00
 menu = "nav"
 draft = false
 weight = 1
 +++
 
-# Hungarian RHVoice
+# Magyar RHVoice
 
-## What is RHVoice
+## Mi az az RHVoice?
 
-RHVoice is a free and open-source multilingual speech synthesizer.
+Az RHVoice egy ingyenes és nyílt forráskódú többnyelvű beszédszintetizátor.
+Fejlesztői remélik, hogy több látássérült ember számára biztosítják a lehetőséget, hogy anyanyelvükön, képernyőolvasójuk segítségével, egy jó minőségű ingyenes szintetizált hangot használhassanak olvasásra.
 
-Its developers hope to give more visually impaired people the ability
-to use a good free synthesis voice reading in their native language
-with their screen reader.
+[Az RHVoice hivatalos honlapja](https://rhvoice.org)
 
-[The official RHVoice website](https://rhvoice.org)
+## A beszédszintetizátor magyar nyelven is elérhető
 
-## RHVoice for Hungarian language
+Több hónapnyi kemény munka, próbálkozás és kudarc után csapatunk büszkén mutatja be az RHVoice magyar nyelvi modulját, valamint több magyar hangot.
 
-After several months of hard work, trials and fails, our team proudly presents a Hungarian language module for RHVoice along with several Hungarian voices.
+### Csapatunk
 
-### Our team
+* Zvonimir Stanecic - A forráskódon dolgozik és a hangokat képezi;
+* Kirill Belousov - A forráskódon dolgozik, javítja a hangminőséget és ezen weboldal fő működtetője;
+* Till Nikolett - Fő béta-tesztelő, magyar anyanyelvű és a szöveges tartalmak állandó fordítója.
 
-* Zvonimir Stanecic - Works on the source code and trains the voices;
-* Kirill Belousov - Works on the source code, improves sound quality and manages this website;
-* Till Nikolett - Acts as the main beta-tester, Hungarian native speaker and the ultimate translator for any text content.
+## Mely platformokon használható az RHVoice?
 
-## Where can RHVoice be used?
+* Windows rendszeren az NVDA-val és bármely SAPI 5 kompatibilis programmal (beleértve a JAWS for Windows-t is.)
+* Androidon a TalkBack és más egyéb képernyőolvasó alkalmazásokkal.
+* Linuxon az Orca-val.
 
-* On Windows with NVDA and any SAPI 5 compatible program (including JAWS for Windows).
-* On Android with TalkBack and other text-to-speech apps.
-* On Linux with Orca.
-
-See the [installation instructions]({{<relref "installation">}}) for more details.
+További részletekért és instrukciókért lásd a [telepítési útmutatót.]({{<relref "installation">}})

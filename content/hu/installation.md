@@ -1,47 +1,47 @@
 +++
-title = 'Installation'
-date = 2024-07-20T19:15:34+03:00
+title = 'Telepítés'
+date = 2024-07-22T16:24:34+02:00
 menu = "nav"
 draft = false
 weight = 2
 +++
 
-# Installation instructions
+# Telepítési útmutató
 
-## For NVDA
+## NVDA
 
-For any RHVoice voice to work with NVDA you need an RHVoice driver add-on which can be downloaded from the [official RHVoice website](https://rhvoice.org) or using the link below.
+Ahhoz, hogy bármelyik RHVoice hang működjön az NVDA képernyőolvasóval, szükséged lesz az RHVoice bővítményre, amely letölthető az [RHVoice hivatalos honlapjáról](https://rhvoice.org) vagy az alábbi linken.
 
-[Download RHVoice driver NVDA add-on]({{<param "urls.nvdaDirectLink">}})
+[Az RHVoice bővítmény letöltése]({{<param "urls.nvdaDirectLink">}})
 
-Notice: consider downloading the driver from the official website as the link above points to a specific version which may be not the latest one.
+Figyelem: érdemes a drivert a hivatalos weboldalról letölteni, mivel a fenti link egy adott verzióra mutat, ami lehet, hogy nem a legfrissebb.
 
-When the driver is installed you can download one of Hungarian voice add-ons on the [voices page]({{<relref "voices">}}).
+Amint a bővítmény telepítve van, letöltheted a magyar hangokat a [hangok oldalon]({{<relref "voices">}}).
 
-## For SAPI-compatible software
+## SAPI-kompatibilis szoftverekhez
 
-SAPI voices do not require any driver software and can be installed with corresponding setup files on the [voices page]({{<relref "voices">}}).
+A SAPI hangok nem igényelnek semmilyen driver szoftvert, és a megfelelő fájlokkal telepíthetőek a [hangok oldalról]({{<relref "voices">}}).
 
-### For JAWS
+### A Jaws for Windows képernyőolvasóhoz
 
-SAPI voices also can be used with JAWS screenreader, but additional steps are needed for the best experience.
+A SAPI hangok a JAWS képernyőolvasóval is használhatók, de a legjobb élmény érdekében további lépések szükségesek.
 
-Unfortunately, by default JAWS tries to communicate with RHVoice synthesizer in a very old maner.
-To fix this you need to alter SAPI configuration file for JAWS.
-You can download properly altered configuration file [here](https://hlas.ondrosik.sk/sapi5x.ini).
+Sajnos alapértelmezés szerint a JAWS nagyon régi módon próbál kommunikálni az RHVoice szintetizátorral.
+Ennek javításához módosítani kell a SAPI konfigurációs fájlt.
+A megfelelően módosított konfigurációs fájlt [innen töltheted le](https://hlas.ondrosik.sk/sapi5x.ini).
 
-After you have downloaded the file, you need to copy it to `` folder. If your system asks to replace the file, you should agree.
+Miután letöltötted a fájlt, másold be a C:\Program Files\Freedom Scientific\JAWS\xxxx mappába. Az xxxx a telepített JAWS verzióját jelöli. Ha a rendszer kéri a fájl cseréjét, fogadd el.
 
-After updating the configuration simply restart your JAWS screenreader and switch to RHVoice synthesizer.
+A konfiguráció frissítése után egyszerűen indítsd újra a JAWS képernyőolvasót és válts az RHVoice szintetizátorra.
 
-## For Android
+## Android
 
-RHVoice also can be installed to any Android device including smartphones, tablets and even some smart TVs or TV boxes.
+Az RHVoice bármely Android eszközre telepíthető, beleértve az okostelefonokat, táblagépeket és még néhány okos TV-t vagy TV boxot is.
 
-Currently RHVoice Android application is not available in Google Play and is only distributed as an APK file.
+Jelenleg az RHVoice Android alkalmazás nem érhető el a Google Play áruházban, és csak APK fájlként terjesztjük.
 
-You can download the Android application on the [voices page]({{<relref "voices">}}) under a dedicated heading.
+Az alkalmazás letölthető a [hangok oldalon]({{<relref "voices">}}) a megfelelő szekcióban.
 
-After the application installation you have immediate access to all Hungarian (and not only Hungarian) voices including English, Russian and other languages.
+Az alkalmazás telepítését követően azonnal hozzáférhetsz az összes magyar (és nem csak magyar) hanghoz, beleértve az angol, orosz és egyéb nyelveket is.
 
-In the languages list you should find the language you are interested in, select it and install the voice you want.
+A nyelvek listájában meg kell találnod a kívánt nyelvet, kiválasztanod és telepítened a számodra legmegfelelőbb hangot.
