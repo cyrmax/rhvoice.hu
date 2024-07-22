@@ -1,1 +1,2 @@
-googleAnalytics = "G-PH7Y0TRE71"
+[params]
+googleAnalyticsID = "G-PH7Y0TRE71"
