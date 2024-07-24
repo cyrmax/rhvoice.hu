@@ -9,7 +9,6 @@ theme = "cupper"
 dateFormat = "2024-07-20"
 copyright = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimirek222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
 footer = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimirek222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
-subtitle = "Magyar hangok és instrukciók az RHVoice beszédszintetizátorhoz"
 
 [params.contact]
 email = "info@rhvoice.hu"
