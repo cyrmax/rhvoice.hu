@@ -2,3 +2,5 @@ language_selector:
   other: Language selector
 home_page:
   other: home page
+audio_player_not_supported:
+  other: Your browser does not support playing of audio files.

@@ -6,6 +6,8 @@ language_selector:
   other: Nyelvválasztó
 home_page:
   other: főoldal
+audio_player_not_supported:
+  other: A böngésződ nem támogatja az audiólejátszást.
 nav_button_menu:
   other: Menü
 discuss_show_comments_button:

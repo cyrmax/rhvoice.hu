@@ -1,0 +1,5 @@
+{{ with .Get 0 }}
+<audio controls preload="auto" src="{{ . }}">
+  {{i18n "audio_player_not_supported"}}
+</audio>
+{{ end }}
