@@ -27,5 +27,6 @@ Egy lágy hangzású női hang, amely ugyanaz az adatbázis segítségével lett
 ## Katalin (Béta verzió)
 
 Egy női hang tisztább kiejtéssel, amelyet az [Egri Csillagok nyílt forráskódú adatbázisból a Kaggle-ről](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset) képeztünk ki.
-* [NVDA bővítmény letöltése]({{<param "urls.Katalin.sapi">}});
+
+* [NVDA bővítmény letöltése]({{<param "urls.Katalin.nvda">}});
 * [SAPI verzió letöltése]({{<param "urls.Katalin.sapi">}}).

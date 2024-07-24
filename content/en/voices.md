@@ -29,5 +29,5 @@ A soft-sounding  female voice, trained from the same dataset which was used for 
 
 A female voice with sharper pronunciation, trained on [Egri Csillagok open source dataset from Kaggle](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset).
 
-* [Download NVDA add-on]({{<param "urls.Katalin.sapi">}});
+* [Download NVDA add-on]({{<param "urls.Katalin.nvda">}});
 * [Download SAPI version]({{<param "urls.Katalin.sapi">}}).
