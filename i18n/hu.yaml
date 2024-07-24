@@ -2,6 +2,8 @@ skip_to_content:
   other: Ugrás a tartalomhoz
 nav_main_navigation:
   other: Főnavigáció
+language_selector:
+  other: Nyelvválasztó
 nav_button_menu:
   other: Menü
 discuss_show_comments_button:

@@ -1,0 +1,9 @@
+{{ if .Site.IsMultiLingual }}
+<nav aria-label="{{i18n "language_selector"}}">
+      <ul style="list-style: none;">
+        {{ range $.Translations }}
+        <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+  </ul>
+</nav>
+{{ end }}
