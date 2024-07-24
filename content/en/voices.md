@@ -3,7 +3,7 @@ title = 'Voices'
 date = 2024-07-20T19:56:01+03:00
 menu = "nav"
 draft = false
-weight = 3
+weight = 40
 +++
 
 # Available Hungarian voices

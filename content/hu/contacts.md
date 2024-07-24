@@ -3,7 +3,7 @@ title = 'Elérhetőségek'
 date = 2024-07-22T16:16:25+02:00
 menu = "nav"
 draft = false
-weight = 5
+weight = 60
 +++
 
 # Elérhetőségeink

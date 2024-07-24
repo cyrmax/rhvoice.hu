@@ -3,7 +3,7 @@ title = 'Telepítés'
 date = 2024-07-22T16:24:34+02:00
 menu = "nav"
 draft = false
-weight = 2
+weight = 30
 +++
 
 # Telepítési útmutató

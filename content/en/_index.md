@@ -3,7 +3,7 @@ title = 'Home'
 date = 2024-07-20T19:02:00+03:00
 menu = "nav"
 draft = false
-weight = 1
+weight = 10
 +++
 
 # Hungarian RHVoice

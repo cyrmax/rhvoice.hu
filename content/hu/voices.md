@@ -3,7 +3,7 @@ title = 'Hangok'
 date = 2024-07-22T16:41:01+02:00
 menu = "nav"
 draft = false
-weight = 3
+weight = 40
 +++
 
 # Elérhető magyar hangok

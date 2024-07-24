@@ -18,10 +18,12 @@ nvdaDirectLink = "https://rhvoice.org/download/RHVoice-1.14.1.nvda-addon"
 androidApp = "https://storage.cyrmax.ru/rhvoice/vce/rhvoice-lang-testing.apk"
 
 [params.urls.Anna]
+sample = "/samples/anna-pelda.wav"
 sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.0.1001.20-setup.exe"
 nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.0.1001.11.nvda-addon"
 
 [params.urls.Katalin]
+sample = "/samples/katalin-pelda.wav"
 sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.0.1001.20-setup.exe"
 nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.0.1001.11.nvda-addon"
 

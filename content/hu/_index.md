@@ -3,7 +3,7 @@ title = 'Főoldal'
 date = 2024-07-22T15:10:00+02:00
 menu = "nav"
 draft = false
-weight = 1
+weight = 10
 +++
 
 # Magyar RHVoice

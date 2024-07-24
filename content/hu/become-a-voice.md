@@ -3,7 +3,7 @@ title = 'Legyél te is magyar hang!'
 date = 2024-07-22T15:35:29+02:00
 menu = "nav"
 draft = false
-weight = 4
+weight = 50
 +++
 
 # Legyél te is magyar hang!

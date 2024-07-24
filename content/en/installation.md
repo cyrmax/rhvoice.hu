@@ -3,7 +3,7 @@ title = 'Installation'
 date = 2024-07-20T19:15:34+03:00
 menu = "nav"
 draft = false
-weight = 2
+weight = 30
 +++
 
 # Installation instructions

@@ -3,7 +3,7 @@ title = 'Become a voice'
 date = 2024-07-21T00:30:29+03:00
 menu = "nav"
 draft = false
-weight = 4
+weight = 50
 +++
 
 # Become a voice
