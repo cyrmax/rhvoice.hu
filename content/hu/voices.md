@@ -21,12 +21,16 @@ Figyelem! Ha a rendszered nincs magyar nyelvre állítva, akkor a magyar hangok 
 
 Egy lágy hangzású női hang, amely ugyanaz az adatbázis segítségével lett betanítva, mint a Piper TTS Anna magyar hangja.
 
+{{< audioplayer "/static/samples/anna-pelda.wav" >}}
+
 * [NVDA bővítmény letöltése]({{<param "urls.Anna.nvda">}});
 * [SAPI verzió letöltése]({{<param "urls.Anna.sapi">}}).
 
 ## Katalin (Béta verzió)
 
 Egy női hang tisztább kiejtéssel, amelyet az [Egri Csillagok nyílt forráskódú adatbázisból a Kaggle-ről](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset) képeztünk ki.
+
+{{< audioplayer "/static/samples/katalin-pelda.wav" >}}
 
 * [NVDA bővítmény letöltése]({{<param "urls.Katalin.nvda">}});
 * [SAPI verzió letöltése]({{<param "urls.Katalin.sapi">}}).
