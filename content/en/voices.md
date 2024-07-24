@@ -22,7 +22,7 @@ Warning! If your system is not set to Hungarian then the Hungarian voices aren't
 
 A soft-sounding  female voice, trained from the same dataset which was used for Piper TTS Anna Hungarian voice.
 
-{{< audioplayer "/static/samples/anna-pelda.wav" >}}
+{{< audioplayer "/samples/anna-pelda.wav" >}}
 
 * [Download NVDA add-on]({{<param "urls.Anna.nvda">}});
 * [Download SAPI version]({{<param "urls.Anna.sapi">}}).
@@ -31,7 +31,7 @@ A soft-sounding  female voice, trained from the same dataset which was used for 
 
 A female voice with sharper pronunciation, trained on [Egri Csillagok open source dataset from Kaggle](https://www.kaggle.com/datasets/bryanpark/hungarian-single-speaker-speech-dataset).
 
-{{< audioplayer "/static/samples/katalin-pelda.wav" >}}
+{{< audioplayer "/samples/katalin-pelda.wav" >}}
 
 * [Download NVDA add-on]({{<param "urls.Katalin.nvda">}});
 * [Download SAPI version]({{<param "urls.Katalin.sapi">}}).
