@@ -4,6 +4,8 @@ nav_main_navigation:
   other: Főnavigáció
 language_selector:
   other: Nyelvválasztó
+home_page:
+  other: főoldal
 nav_button_menu:
   other: Menü
 discuss_show_comments_button:
