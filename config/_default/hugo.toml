@@ -6,7 +6,7 @@ title = "Magyar RHVoice"
 theme = "cupper"
 
 [params]
-dateFormat = "2024-07-20"
+dateFormat = "2006. 1. 2."
 copyright = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimirek222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
 footer = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stanecic <zvonimirek222@yandex.com>, Till Nikolett <tillnikolett@gmail.com>"
 
