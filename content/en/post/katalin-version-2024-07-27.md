@@ -1,5 +1,5 @@
 +++
-title = 'A new version of Anna hungarian voice from July 27th 2024'
+title = 'A new version of Katalin hungarian voice from July 27th 2024'
 date = 2024-07-27T17:19:58+03:00
 draft = false
 +++
