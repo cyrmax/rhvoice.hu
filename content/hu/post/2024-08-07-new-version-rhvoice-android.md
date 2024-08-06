@@ -1,6 +1,6 @@
 +++
 title = 'Az RHVoice android alkalmazása immár magyar nyelven is elérhető'
-date = 2024-08-07T23:49:26+02:00
+date = 2024-08-06T23:49:26+02:00
 draft = false
 +++
 
