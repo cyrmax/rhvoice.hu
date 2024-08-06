@@ -15,7 +15,7 @@ email = "info@rhvoice.hu"
 
 [params.urls]
 nvdaDirectLink = "https://rhvoice.org/download/RHVoice-1.14.1.nvda-addon"
-androidApp = "https://storage.cyrmax.ru/rhvoice/vce/rhvoice-lang-testing.apk"
+androidApp = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-core-lang-debug.apk"
 
 [params.urls.Anna]
 sample = "/samples/anna-pelda.wav"
@@ -24,8 +24,8 @@ nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-
 
 [params.urls.Katalin]
 sample = "/samples/katalin-pelda.wav"
-sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.1.1002.20-setup.exe"
-nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.1.1002.11.nvda-addon"
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1002.20-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1002.11.nvda-addon"
 
 [languages]
 [languages.hu]
