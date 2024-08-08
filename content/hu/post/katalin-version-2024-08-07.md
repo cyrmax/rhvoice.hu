@@ -1,6 +1,6 @@
 +++
 title = 'Megjelent a Katalin hang 2024. augusztus 7-ei frissítése'
-date = 2024-08-07T00:04:11+02:00
+date = 2024-08-07T23:04:11+02:00
 draft = false
 +++
 
