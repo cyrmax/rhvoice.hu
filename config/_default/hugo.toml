@@ -14,7 +14,7 @@ footer = "© Copyright 2024 Kirill Belousov <cyrmax@internet.ru>, Zvonimir Stane
 email = "info@rhvoice.hu"
 
 [params.urls]
-nvdaDirectLink = "https://rhvoice.org/download/RHVoice-1.14.1.nvda-addon"
+nvdaDirectLink = "https://rhvoice.org/download/RHVoice-1.16.2.nvda-addon"
 androidApp = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-core-lang-debug.apk"
 
 [params.urls.Anna]
