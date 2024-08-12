@@ -19,10 +19,10 @@ You can find the latest version on [voices page]({{<relref "voices">}}) or on a 
 
 ## Download Anna
 
-* [Download this version of Anna for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1005.11.nvda-addon);
-* [Download this version of Anna for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1005.21-setup.exe).
+* [Download this version of Anna for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1006.11.nvda-addon);
+* [Download this version of Anna for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1006.21-setup.exe).
 
 ## Download Katalin
 
-* [Download this version of Katalin for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1005.11.nvda-addon);
-* [Download this version of Katalin for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1005.21-setup.exe).
+* [Download this version of Katalin for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1006.11.nvda-addon);
+* [Download this version of Katalin for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1006.21-setup.exe).
