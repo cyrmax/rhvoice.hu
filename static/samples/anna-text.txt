@@ -1,0 +1,1 @@
+Szia! A nevem Anna. Én vagyok az RHVoice egyik magyar hangja. A magyar RHVoice hangjainak fejlesztő csapata hozott engem létre a Piper TTS Anna nyílt forráskódú adatbázisából.
