@@ -1,44 +1,41 @@
 +++
-title = 'New versions of Anna and Katalin Hungarian voices from August 16, 2024'
-date = 2024-08-16T01:30:30+03:00
-draft = true
+title = 'Megjelent az Anna és Katalin hangok új, augusztus 15-ei verziója'
+date = 2024-08-16T00:37:30+02:00
+draft = false
 +++
 
-These new versions of Anna and Katalin Hungarian RHVoice voices have only one but very important new feature.
-We have implemented correct reading of decimal numbers like 1.5, 0.42, ETC.
+A legújabb verziókhoz csak egy, ellenben nagyon fontos új funkció került fejlesztésre.
+Megvalósítottuk a tizedes számok helyes olvasását, mint például 1,5, 0,42 stb.
 
-Kirill Belousov, who implemented this feature from scrach, says
+Kirill Belousov, aki az alapoktól, teljesen a nulláról megvalósította ezt a funkciót, így nyilatkozik:
+> Nem mondom, hogy ez volt életem legnehezebb feladata, de elég nehéz volt ahhoz, hogy több napot töltsek vele. Minél többet foglalkoztam a dologgal, annál több fejfájást okozott a megvalósítás.
+A legnagyobb probléma az volt, hogy egyetlen más nyelv sem tudja ilyen fejlett módon olvasni a tizedes törteket az RHVoice-ban, és nem volt hivatkozási alapom; fogalmam sem volt, hol kezdjem.
+De végül elkészült ez a funkció, és a magyar felhasználók lesznek az elsők, akik kipróbálhatják.
+Ha ez a kihívásokkal teli kísérlet sikerrel jár, valószínűleg megpróbálom ugyanezt megvalósítani az angol és orosz hangok esetében is.
 
-> I won't say that it was the hardest task in my life, but it was hard enough to spend several days and get a headache implementing this feature.
-> The biggest problem is that no other language in RHVoice can read decimal numbers in such an advanced way and I had no reference, no idea where to start.
-> But finally this feature is done and Hungarian users will be the first to try it.
-> If this challenging experiment succeeds, I will probably try to implement the same for English and Russian voices as well.
+## Hogyan teszteld
 
-## How to test
+Mivel ez a funkció teljesen új az RHVoice-ban, sok tesztelésre van szükségünk.
 
-As this feature is completely new in RHVoice, it needs lots of testing.
+Ha találsz olyan tizedes törteket, amelyeket az RHVoice helytelenül ejt ki, kérjük, másold ki az egész mondatot a hibás számmal, és tájékoztass minket a hibáról.
 
-If you find some decimal numbers that are pronounced incorrectly, please copy the entire sentence with the incorrect number and tell us about the error.
+Észrevételeket, egyéb megjegyzéseket mindig szívesen fogadunk az [info@rhvoice.hu](mailto:info@rhvoice.hu) email címen.
 
-You can always contact us via email [info@rhvoice.hu](mailto:info@rhvoice.hu).
+A hiba bejelentéséhez kérjük, mondd el a következőket:
+1. Melyik verzióban tapasztalod a problémát (NVDA, JAWS, SAPI, Android);
+2. Mit mond pontosan az RHVoice;
+3. Hogyan kellene helyesen kiejteni a hallottakat;
+4. Melyik RHVoice hang okozza a problémát.
+Előre is köszönünk minden visszajelzést!
 
-When reporting, please tell us the following:
+## Anna letöltése
 
-1. Which operating system you are experiencing the problem on (NVDA, JAWS, SAPI, Android);
-2. What RHVoice is actually saying, what you are hearing;
-3. What should be pronounced, how it should be pronounced correctly;
-4. Which RHVoice voice is causing the problem.
+* [NVDA verzió letöltése](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1007.11.nvda-addon);
+* [SAPI verzió letöltése](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1007.21-setup.exe).
 
-Thank you in advance for your informative reports.
+## Katalin letöltése
 
-## Download Anna
+* [NVDA verzió letöltése](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1007.11.nvda-addon);
+* [SAPI verzió letöltése](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1007.21-setup.exe).
 
-* [Download this version of Anna for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1007.11.nvda-addon);
-* [Download this version of Anna for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1007.21-setup.exe).
-
-## Download Katalin
-
-* [Download this version of Katalin for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1007.11.nvda-addon);
-* [Download this version of Katalin for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1007.21-setup.exe).
-
-Android users will receive these updates automatically.
+Az android felhasználók ezen frissítést automatikusan megkapják.
