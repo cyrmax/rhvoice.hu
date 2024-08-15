@@ -1,6 +1,6 @@
 +++
-title = 'New versions of Anna and Katalin Hungarian voices from August 15, 2024'
-date = 2024-08-15T15:30:30+03:00
+title = 'New versions of Anna and Katalin Hungarian voices from August 16, 2024'
+date = 2024-08-16T01:30:30+03:00
 draft = true
 +++
 
@@ -33,12 +33,12 @@ Thank you in advance for your informative reports.
 
 ## Download Anna
 
-* [Download this version of Anna for NVDA](https://some.link);
-* [Download this version of Anna for SAPI](https://some.link).
+* [Download this version of Anna for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1007.11.nvda-addon);
+* [Download this version of Anna for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1007.21-setup.exe).
 
 ## Download Katalin
 
-* [Download this version of Katalin for NVDA](https://some.link);
-* [Download this version of Katalin for SAPI](https://some.link).
+* [Download this version of Katalin for NVDA](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1007.11.nvda-addon);
+* [Download this version of Katalin for SAPI](https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1007.21-setup.exe).
 
 Android users will receive these updates automatically.
