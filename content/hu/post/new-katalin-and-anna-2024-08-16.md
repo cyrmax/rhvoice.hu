@@ -1,5 +1,5 @@
 +++
-title = 'Megjelent az Anna és Katalin hangok új, augusztus 15-ei verziója'
+title = 'Megjelent az Anna és Katalin hangok új, augusztus 16-ei verziója'
 date = 2024-08-16T00:37:30+02:00
 draft = false
 +++
