@@ -19,13 +19,13 @@ androidApp = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-core-dev-lang-signed
 
 [params.urls.Anna]
 sample = "/samples/anna-pelda.wav"
-sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1006.21-setup.exe"
-nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1006.11.nvda-addon"
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-v4.2.1007.21-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Anna-Beta-4.2.1007.11.nvda-addon"
 
 [params.urls.Katalin]
 sample = "/samples/katalin-pelda.wav"
-sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1006.21-setup.exe"
-nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1006.11.nvda-addon"
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1007.21-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1007.11.nvda-addon"
 
 [languages]
 [languages.hu]
