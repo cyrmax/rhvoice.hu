@@ -27,6 +27,11 @@ sample = "/samples/katalin-pelda.wav"
 sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-v4.2.1007.21-setup.exe"
 nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Katalin-Beta-4.2.1007.11.nvda-addon"
 
+[params.urls.Imre]
+sample = "/samples/imre-pelda.wav"
+sapi = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Imre-Beta-v4.0.1007.21-setup.exe"
+nvda = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-voice-Hungarian-Imre-Beta-4.0.1007.11.nvda-addon"
+
 [languages]
 [languages.hu]
 title = "Magyar RHVoice"
