@@ -35,3 +35,12 @@ A female voice with sharper pronunciation, trained on [Egri Csillagok open sourc
 
 * [Download NVDA add-on]({{<param "urls.Katalin.nvda">}});
 * [Download SAPI version]({{<param "urls.Katalin.sapi">}}).
+
+## Imre (beta version)
+
+A soft male voice trained from open source Imre Piper TTS dataset.
+
+{{< audioplayer "/samples/imre-pelda.wav" >}}
+
+* [Download NVDA add-on]({{<param "urls.Imre.nvda">}});
+* [Download SAPI version]({{<param "urls.Imre.sapi">}}).
