@@ -34,3 +34,12 @@ Egy női hang tisztább kiejtéssel, amelyet az [Egri Csillagok nyílt forrásk�
 
 * [NVDA bővítmény letöltése]({{<param "urls.Katalin.nvda">}});
 * [SAPI verzió letöltése]({{<param "urls.Katalin.sapi">}}).
+
+## Imre (béta verzió)
+
+Egy kellemes férfi hang, amelyet a Piper TTs-ben is felhasznált nyílt forráskódú adatbázisból állítottunk elő.
+
+{{< audioplayer "/samples/imre-pelda.wav" >}}
+
+* [NVDA kiegészítő letöltése]({{<param "urls.Imre.nvda">}});
+* [SAPI verzió letöltése]({{<param "urls.Imre.sapi">}}).
