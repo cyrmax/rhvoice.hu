@@ -10,6 +10,12 @@ weight = 40
 
 For each voice you can find a link to the NVDA add-on and a link to the SAPI version installer.
 
+## Linux (Beta voices)
+
+Linux packages for Anna, Imre and Katalin are available from the [RHVoice package repository on axelek.pl]({{<param "urls.linuxRepository">}}).
+
+Follow the [Linux installation instructions]({{<relref "installation#linux">}}) to add the repository, install the voices and select them in Orca.
+
 ## Android application (Beta version)
 
 The android application already contains all available voices and can be downloaded as an APK file with the link below.

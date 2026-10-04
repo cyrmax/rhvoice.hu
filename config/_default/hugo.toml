@@ -16,6 +16,7 @@ email = "info@rhvoice.hu"
 [params.urls]
 nvdaDirectLink = "https://github.com/RHVoice/RHVoice/releases/download/1.18.2/RHVoice-1.18.201.nvda-addon"
 androidApp = "https://storage.cyrmax.ru/rhvoice/vce/RHVoice-1.19.3-alpha-signed.apk"
+linuxRepository = "https://axelek.pl/asael/rhvoice/"
 
 [params.urls.Anna]
 sample = "/samples/anna-pelda.wav"

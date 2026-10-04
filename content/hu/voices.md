@@ -10,6 +10,12 @@ weight = 40
 
 Minden hanghoz megtalálod az NVDA bővítmény linkjét és a SAPI verzió telepítőjét is.
 
+## Linux (Béta hangok)
+
+Az Anna, Imre és Katalin hangok linuxos csomagjai az [axelek.pl RHVoice csomagtárolójából]({{<param "urls.linuxRepository">}}) érhetők el.
+
+A csomagtároló hozzáadását, a hangok telepítését és az Orca beállítását a [Linux telepítési útmutató]({{<relref "installation#linux">}}) ismerteti.
+
 ## Android alkalmazás (Béta verzió)
 
 Az android alkalmazás már tartalmazza az összes elérhető hangot, és az alábbi linken keresztül APK fájlként letölthető.
