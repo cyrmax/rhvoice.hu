@@ -64,30 +64,22 @@ A parancsokat terminálban, a saját felhasználói fiókoddal futtasd. A `sudo`
 
 A csomagtároló aláírókulcsának ujjlenyomata: `A263 A416 C89A D771 63AC 16C0 7CE0 7DB3 9AD2 DB61`.
 
+Csak akkor add hozzá a csomagtárolót, ha megbízol benne: mint bármely csomagtároló, ez is telepíthet rendszergazdai jogosultsággal futó programokat.
+
+A csomagtárolót egyetlen csomag adja hozzá, amely telepíti az aláírókulcsot és a csomagforrást. A kulcs későbbi változásai ezzel a csomaggal, a szokásos frissítésekkel érkeznek.
+
 ### Debian, Ubuntu és Linux Mint
 
-Telepítsd a letöltéshez szükséges eszközt, és add hozzá a csomagtároló aláírókulcsát:
+Töltsd le és telepítsd a csomagtároló csomagját:
 
 ```sh
-sudo apt update
-sudo apt install wget ca-certificates
-sudo install -d -m 0755 /etc/apt/keyrings
-sudo wget -O /etc/apt/keyrings/rhvoice.asc https://axelek.pl/asael/rhvoice/rhvoice.asc
+wget -O /tmp/rhvoice-archive-keyring.deb https://axelek.pl/asael/rhvoice/rhvoice-archive-keyring.deb
+sudo apt install /tmp/rhvoice-archive-keyring.deb
 ```
 
-A disztribúciódnak megfelelő paranccsal add hozzá a csomagtárolót. Debian 13 vagy Ubuntu 24.04/26.04 LTS esetén:
+Ha a `wget` parancs nem található, előbb telepítsd: `sudo apt install wget`.
 
-```sh
-sudo wget -O /etc/apt/sources.list.d/rhvoice.sources https://axelek.pl/asael/rhvoice/rhvoice.sources
-```
-
-Linux Mint 22.3 esetén a `.list` fájlt használd, amelyet a Mint Szoftverforrások alkalmazása is megjelenít:
-
-```sh
-sudo wget -O /etc/apt/sources.list.d/rhvoice.list https://axelek.pl/asael/rhvoice/rhvoice.list
-```
-
-Miután hozzáadtad a disztribúciódnak megfelelő forrást, frissítsd a csomaglistát, és telepítsd a hangokat:
+Frissítsd a csomaglistát, és telepítsd a hangokat:
 
 ```sh
 sudo apt update
@@ -95,18 +87,44 @@ sudo apt install speech-dispatcher-rhvoice \
     rhvoice-voice-anna-hun rhvoice-voice-imre rhvoice-voice-katalin
 ```
 
+Ha szeretnéd, ellenőrizheted a telepített kulcsot. A kimenetnek tartalmaznia kell az `A263A416C89AD77163AC16C07CE07DB39AD2DB61` ujjlenyomatot:
+
+```sh
+gpg --show-keys /usr/share/keyrings/rhvoice-archive-keyring.pgp
+```
+
 ### Fedora 44
 
 Add hozzá a csomagtárolót, és telepítsd a hangokat:
 
 ```sh
-sudo dnf install curl
-sudo curl --fail --location --output /etc/yum.repos.d/rhvoice.repo https://axelek.pl/asael/rhvoice/rhvoice.repo
+sudo dnf install https://axelek.pl/asael/rhvoice/rhvoice-release.rpm
 sudo dnf install speech-dispatcher-rhvoice \
     rhvoice-voice-anna-hun rhvoice-voice-imre rhvoice-voice-katalin
 ```
 
-Amikor a DNF az aláírókulcs importálását kéri, elfogadás előtt hasonlítsd össze az ujjlenyomatát a fent megadottal. A csomagtároló metaadataihoz és a csomagokhoz külön is kérhet megerősítést.
+Az első parancs hozzáadja a csomagtárolót és annak aláírókulcsát. A DNF jelzi, hogy egy csomagnál kihagyta az OpenPGP-ellenőrzést („skipped OpenPGP checks for 1 package”); ez a figyelmeztetés várható.
+
+Amikor a második parancs az aláírókulcs importálását kéri, elfogadás előtt hasonlítsd össze az ujjlenyomatát a fent megadottal. Általában kétszer kér megerősítést: egyszer a csomagtároló metaadataihoz, egyszer a csomagokhoz.
+
+### Ha a korábbi útmutató szerint adtad hozzá a csomagtárolót
+
+Ha az útmutató korábbi változata szerint adtad hozzá a csomagtárolót (kulcs az `/etc/apt/keyrings` mappában és egy `rhvoice.sources` vagy `rhvoice.list` fájl, illetve Fedorán egy letöltött `rhvoice.repo` fájl), telepítsd a csomagtároló csomagját, hogy a kulcs jövőbeli változásai is eljussanak hozzád.
+
+Debian, Ubuntu és Linux Mint esetén:
+
+```sh
+sudo apt update
+sudo apt install rhvoice-archive-keyring
+```
+
+Fedora esetén:
+
+```sh
+sudo dnf install rhvoice-release
+```
+
+Debian, Ubuntu és Linux Mint rendszeren a csomag eltávolítja a korábbi útmutató változatlan fájljait, és a saját fájljaival helyettesíti őket. Ha valamelyiket módosítottad, az a helyén marad, és a csomag kiírja, hol szerepel még a csomagtároló. Ezt a fájlt töröld kézzel, különben az APT a `Conflicting values set for option Signed-By` hibát jelzi.
 
 ### A hangok használata az Orcával
 
@@ -129,7 +147,7 @@ spd-say -o rhvoice -y Katalin "Szia! Ez egy magyar próbamondat."
 
 ### Frissítések
 
-Az új verziók a disztribúciód szokásos frissítéskezelőjén keresztül érkeznek. Debian, Ubuntu vagy Linux Mint rendszeren terminálból így frissíthetsz:
+Az új verziók a disztribúciód szokásos frissítéskezelőjén keresztül érkeznek. Az aláírókulcs változásai is így, a csomagtároló csomagjával érkeznek. Debian, Ubuntu vagy Linux Mint rendszeren terminálból így frissíthetsz:
 
 ```sh
 sudo apt update
@@ -140,4 +158,36 @@ Fedora esetén:
 
 ```sh
 sudo dnf upgrade
+```
+
+### A hangok eltávolítása
+
+Az alábbi parancsok az összes RHVoice csomagot eltávolítják, nem csak a magyar hangokat. A csomagtároló csomagját is eltávolítják, és vele együtt az aláírókulcsot és a csomagforrást.
+
+Debian, Ubuntu és Linux Mint esetén:
+
+```sh
+sudo apt purge '~nrhvoice'
+sudo apt update
+```
+
+Fedora esetén:
+
+```sh
+sudo dnf remove '*rhvoice*'
+sudo rpmkeys --delete a263a416c89ad77163ac16c07ce07db39ad2db61
+```
+
+A második Fedora-parancs törli az importált aláírókulcsot az RPM adatbázisából.
+
+Ha a korábbi útmutató szerint kézzel adtad hozzá a csomagtárolót, és nem telepítetted a csomagtároló csomagját, töröld a hozzáadott fájlokat is. Debian, Ubuntu és Linux Mint esetén:
+
+```sh
+sudo rm -f /etc/apt/sources.list.d/rhvoice.sources /etc/apt/sources.list.d/rhvoice.list /etc/apt/keyrings/rhvoice.asc
+```
+
+Fedora esetén:
+
+```sh
+sudo rm -f /etc/yum.repos.d/rhvoice.repo
 ```

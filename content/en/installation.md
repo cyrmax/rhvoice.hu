@@ -64,30 +64,22 @@ Run the commands in a terminal as your regular user. Commands starting with `sud
 
 The repository signing-key fingerprint is `A263 A416 C89A D771 63AC 16C0 7CE0 7DB3 9AD2 DB61`.
 
+Add the repository only if you trust it: like any package repository, it can install software that runs with administrator privileges.
+
+The repository is added by a single package that installs the signing key and the package source. Later changes to the key arrive with this package in regular updates.
+
 ### Debian, Ubuntu and Linux Mint
 
-Install the download tool and add the repository signing key:
+Download and install the repository package:
 
 ```sh
-sudo apt update
-sudo apt install wget ca-certificates
-sudo install -d -m 0755 /etc/apt/keyrings
-sudo wget -O /etc/apt/keyrings/rhvoice.asc https://axelek.pl/asael/rhvoice/rhvoice.asc
+wget -O /tmp/rhvoice-archive-keyring.deb https://axelek.pl/asael/rhvoice/rhvoice-archive-keyring.deb
+sudo apt install /tmp/rhvoice-archive-keyring.deb
 ```
 
-Add the repository using the command for your distribution. For Debian 13 or Ubuntu 24.04/26.04 LTS:
+If the `wget` command is not found, install it first with `sudo apt install wget`.
 
-```sh
-sudo wget -O /etc/apt/sources.list.d/rhvoice.sources https://axelek.pl/asael/rhvoice/rhvoice.sources
-```
-
-For Linux Mint 22.3, use the `.list` file, which also appears in Mint's Software Sources tool:
-
-```sh
-sudo wget -O /etc/apt/sources.list.d/rhvoice.list https://axelek.pl/asael/rhvoice/rhvoice.list
-```
-
-After adding the source for your distribution, refresh the package list and install the voices:
+Refresh the package list and install the voices:
 
 ```sh
 sudo apt update
@@ -95,18 +87,44 @@ sudo apt install speech-dispatcher-rhvoice \
     rhvoice-voice-anna-hun rhvoice-voice-imre rhvoice-voice-katalin
 ```
 
+Optionally, you can check the installed key. The output should contain the fingerprint `A263A416C89AD77163AC16C07CE07DB39AD2DB61`:
+
+```sh
+gpg --show-keys /usr/share/keyrings/rhvoice-archive-keyring.pgp
+```
+
 ### Fedora 44
 
 Add the repository and install the voices:
 
 ```sh
-sudo dnf install curl
-sudo curl --fail --location --output /etc/yum.repos.d/rhvoice.repo https://axelek.pl/asael/rhvoice/rhvoice.repo
+sudo dnf install https://axelek.pl/asael/rhvoice/rhvoice-release.rpm
 sudo dnf install speech-dispatcher-rhvoice \
     rhvoice-voice-anna-hun rhvoice-voice-imre rhvoice-voice-katalin
 ```
 
-When DNF asks to import the signing key, compare its fingerprint with the one above before accepting. It may ask separately for the repository metadata and the packages.
+The first command adds the repository and its signing key. DNF reports that it skipped OpenPGP checks for 1 package; this warning is expected.
+
+When the second command asks to import the signing key, compare its fingerprint with the one above before accepting. It usually asks twice: once for the repository metadata and once for the packages.
+
+### If you added the repository using the earlier instructions
+
+If you followed the earlier version of these instructions (a key in `/etc/apt/keyrings` and a `rhvoice.sources` or `rhvoice.list` file, or a `rhvoice.repo` file downloaded on Fedora), install the repository package so that future key changes reach you.
+
+On Debian, Ubuntu and Linux Mint:
+
+```sh
+sudo apt update
+sudo apt install rhvoice-archive-keyring
+```
+
+On Fedora:
+
+```sh
+sudo dnf install rhvoice-release
+```
+
+On Debian, Ubuntu and Linux Mint, the package removes the unchanged files of the earlier instructions and puts its own in their place. If you edited one of those files, it stays in place and the package tells you where else the repository is listed. Remove that file yourself, otherwise APT reports the error `Conflicting values set for option Signed-By`.
 
 ### Using the voices with Orca
 
@@ -129,7 +147,7 @@ spd-say -o rhvoice -y Katalin "Szia! Ez egy magyar próbamondat."
 
 ### Updates
 
-New versions arrive through your distribution's normal update manager. To update from a terminal on Debian, Ubuntu or Linux Mint:
+New versions arrive through your distribution's normal update manager. Changes to the signing key arrive the same way, in the repository package. To update from a terminal on Debian, Ubuntu or Linux Mint:
 
 ```sh
 sudo apt update
@@ -140,4 +158,36 @@ On Fedora:
 
 ```sh
 sudo dnf upgrade
+```
+
+### Removing the voices
+
+The commands below remove all RHVoice packages, not only the Hungarian voices. They also remove the repository package, and with it the signing key and the package source.
+
+On Debian, Ubuntu and Linux Mint:
+
+```sh
+sudo apt purge '~nrhvoice'
+sudo apt update
+```
+
+On Fedora:
+
+```sh
+sudo dnf remove '*rhvoice*'
+sudo rpmkeys --delete a263a416c89ad77163ac16c07ce07db39ad2db61
+```
+
+The second Fedora command removes the imported signing key from the RPM database.
+
+If you added the repository by hand using the earlier instructions and never installed the repository package, also delete the files you added. On Debian, Ubuntu and Linux Mint:
+
+```sh
+sudo rm -f /etc/apt/sources.list.d/rhvoice.sources /etc/apt/sources.list.d/rhvoice.list /etc/apt/keyrings/rhvoice.asc
+```
+
+On Fedora:
+
+```sh
+sudo rm -f /etc/yum.repos.d/rhvoice.repo
 ```
